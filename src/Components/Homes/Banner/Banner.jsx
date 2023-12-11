@@ -1,5 +1,8 @@
 import img from "../../../assets/Images/My_Offical-good-removebg-preview (1).png"
 import { FaDownload } from "react-icons/fa6";
+import { MdAddCall } from "react-icons/md";
+
+
 
 const Banner = () => {
     return (
@@ -19,7 +22,7 @@ const Banner = () => {
                                 Download Resume
                             </button>
                             <button className="btn btn-outline">
-                                <FaDownload className=" text-xl" />
+                                <MdAddCall className=" text-xl" />
                                 Contact Me
                             </button>
                         </div>
