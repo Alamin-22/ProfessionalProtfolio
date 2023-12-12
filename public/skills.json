@@ -1,0 +1,27 @@
+[
+    {
+      "skillName": "HTML & CSS",
+      "percent": 90
+    },
+    {
+      "skillName": "JavaScript",
+      "percent": 80
+    },
+    {
+      "skillName": "ReactJs",
+      "percent": 75
+    },
+    {
+      "skillName": "Node.js",
+      "percent": 70
+    },
+    {
+      "skillName": "REST API",
+      "percent": 80
+    },
+    {
+      "skillName": "Firebase",
+      "percent": 80
+    }
+  ]
+  
