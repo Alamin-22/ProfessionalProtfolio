@@ -10,9 +10,10 @@ const Skills = () => {
     const [skills, setSkills] = useState([]);
 
     useEffect(() => {
-        axios.get("/public/skills.json")
+        axios.get("/skills.json")
             .then(res => setSkills(res.data))
     }, [])
+    console.log(skills)
 
     return (
         <div className="max-w-7xl mx-auto">

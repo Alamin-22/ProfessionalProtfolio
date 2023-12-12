@@ -1,4 +1,5 @@
 import ContactUs from "../../Components/ContactUs/ContactUs";
+import Education from "../../Components/Education.jsx/Education";
 import Featured from "../../Components/Featured/Featured";
 import Banner from "../../Components/Homes/Banner/Banner";
 import AboutMe from "./AboutMe/AboutMe";
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Education></Education>
             <Featured></Featured>
             <ContactUs></ContactUs>
         </div>
