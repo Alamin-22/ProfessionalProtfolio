@@ -10,7 +10,6 @@ const Featured = () => {
         axios.get("/public/website.json")
             .then(res => setWebInfo(res.data))
     }, [])
-    console.log(webInfo);
 
 
     return (
