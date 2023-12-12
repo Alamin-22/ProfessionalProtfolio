@@ -1,6 +1,5 @@
 import img from "../../../assets/Images/My_Offical-good-removebg-preview (1).png"
 import { FaDownload } from "react-icons/fa6";
-import { MdAddCall } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 
@@ -18,18 +17,13 @@ const Banner = () => {
                         <p className="py-6 text-xl font-medium text-gray-600">
                             Dedicated Web Developer | Transforming Ideas into Digital Experiences | Crafting Elegant and Functional Websites | Let&rsquo;s Build Your Online Presence Together!
                         </p>
-                        <div className="flex gap-3">
+                        <div className="">
                             <Link to={"https://drive.usercontent.google.com/download?id=1_SazDTaXAKmWZ_Rb7zMlPGaFbyb2BImE&export=download&authuser=0&confirm=t&uuid=5bf8a24e-79b9-4535-a74b-5f9480056222&at=APZUnTWnnvFyiBUiZW27ajHASfKi:1702319266467"}>
-                                <button className="btn btn-outline">
+                                <button className="btn btn-outline hover:bg-[#FD6E0A]  hover:border-[#FD6E0A] text-[#FD6E0A]">
                                     <FaDownload className=" text-xl" />
                                     Download Resume
                                 </button>
                             </Link>
-
-                            <button className="btn btn-outline">
-                                <MdAddCall className=" text-xl" />
-                                Contact Me
-                            </button>
                         </div>
                     </div>
                 </div>

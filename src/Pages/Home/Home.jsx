@@ -1,3 +1,4 @@
+import ContactUs from "../../Components/ContactUs/ContactUs";
 import Featured from "../../Components/Featured/Featured";
 import Banner from "../../Components/Homes/Banner/Banner";
 import AboutMe from "./AboutMe/AboutMe";
@@ -10,6 +11,7 @@ const Home = () => {
             <AboutMe></AboutMe>
             <Skills></Skills>
             <Featured></Featured>
+            <ContactUs></ContactUs>
         </div>
     );
 };
