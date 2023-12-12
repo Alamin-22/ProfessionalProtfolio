@@ -10,7 +10,7 @@ const Skills = () => {
     const [skills, setSkills] = useState([]);
 
     useEffect(() => {
-        axios.get("../../../public/skills.json")
+        axios.get("/public/skills.json")
             .then(res => setSkills(res.data))
     }, [])
 

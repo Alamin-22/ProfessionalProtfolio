@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import WebSiteDetails from "./FeaturedBanner/WebSiteDetails";
 
 const Featured = () => {
-
     const [webInfo, setWebInfo] = useState([]);
 
     useEffect(() => {

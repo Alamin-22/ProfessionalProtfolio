@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom";
 import logo from "../../assets/Images/bgRemove.png"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import gmail from "../../assets/Images/gmail48.png"
-
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return (
@@ -27,9 +26,14 @@ const Header = () => {
                                     <Link to={"https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"} target="_blank" className="btn bg-transparent border-none shadow-none hover:bg-transparent hover:border-none" ><FaLinkedin className="text-3xl text-blue-600" /></Link>
                                     <Link to={"https://github.com/Alamin-22"} target="_blank"><FaGithub className="text-3xl text-gray-700" /></Link>
                                     <Link to={"mailto:mdalaminmollik96@gmail.com"}><img className="w-[80%]" src={gmail} alt="gmail" /></Link>
-                                    <button className="btn btn-outline hover:bg-[#FD6E0A] border-2 hover:border-[#FD6E0A] text-[#FD6E0A]">
-                                        Lets Talks
-                                    </button>
+                                    <Link to="contact"
+                                        spy={true}
+                                        smooth={true}
+                                        duration={500}>
+                                        <button className="btn btn-outline hover:bg-[#FD6E0A] border-2 hover:border-[#FD6E0A] text-[#FD6E0A]">
+                                            Lets Talks
+                                        </button>
+                                    </Link>
                                 </ul>
 
                             </div>
@@ -39,7 +43,7 @@ const Header = () => {
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-base-200">
-                        
+
                     </ul>
                 </div>
 
