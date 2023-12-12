@@ -19,7 +19,7 @@ const Skills = () => {
 
             <div className="mt-20 flex flex-col md:flex-row justify-evenly">
                 <div className=" max-w-xs mx-auto md:mx-0 pb-5">
-                    <h2 className="text-4xl mb-8  text-gray-700 font-semibold text-center">Personal Skills</h2>
+                    <h2 className="text-4xl mb-8  text-gray-700 font-semibold text-center">Technical Skills</h2>
                     {
                         skills.map((skill, idx) => <div key={idx} className="w-64 ">
                             <div className="flex justify-between">

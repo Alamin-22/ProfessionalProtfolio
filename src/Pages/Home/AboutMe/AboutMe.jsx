@@ -25,7 +25,7 @@ const AboutMe = () => {
                                 <span className="px-2 py-1 border-2 rounded-lg  font-semibold border-[#eeb264]  text-gray-700 transition-transform duration-500 transform scale-100 hover:scale-150 cursor-pointer">Firebase</span>
                                 <span className="px-2 py-1 border-2 rounded-lg  font-semibold border-[#eeb264]  text-gray-700 transition-transform duration-500 transform scale-100 hover:scale-150 cursor-pointer">TailwindCSS</span>
                                 <span className="px-2 py-1 border-2 rounded-lg  font-semibold border-[#eeb264]  text-gray-700 transition-transform duration-500 transform scale-100 hover:scale-150 cursor-pointer">DaisyUi</span>
-                                <span className="px-2 py-1 border-2 rounded-lg  font-semibold border-[#eeb264]  text-gray-700 transition-transform duration-500 transform scale-100 hover:scale-150 cursor-pointer">MUI</span>
+                                <span className="px-2 py-1 border-2 rounded-lg  font-semibold border-[#eeb264]  text-gray-700 transition-transform duration-500 transform scale-100 hover:scale-150 cursor-pointer">GitHub</span>
                             </div>
                         </div>
                     </div>

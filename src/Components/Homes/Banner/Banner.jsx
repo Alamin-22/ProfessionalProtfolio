@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div>
-            <div className="hero bg-[#FFF8F3]">
+            <div className="hero bg-[#FFF8F3] ">
 
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={img} className="md:max-w-sm rounded-lg shadow-2xl" />
