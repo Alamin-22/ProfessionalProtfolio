@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import toast from "react-hot-toast";
 import img from "../../assets/Images/2928006-removebg-preview.png";
 import emailjs from '@emailjs/browser';
 
@@ -23,8 +24,15 @@ const ContactUs = () => {
         try {
             const result = await emailjs.send('service_7tkway9', 'template_row3egk', formDataObject, 'HbYVUk5CxUNT10637');
             console.log(result.text);
+            if(result.text){
+                toast.success('Thank you for your valuable feedback!')
+                e.target.reset();
+            }
         } catch (error) {
             console.error(error.text);
+            if(error.text){
+                toast.error('Something went wrong.Please Email Me!')
+            }
         }
     };
 

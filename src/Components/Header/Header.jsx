@@ -23,13 +23,13 @@ const Header = () => {
                             </div>
                             <div className="flex-none hidden md:block">
                                 <ul className="menu menu-horizontal space-x-6 active:space-x-6 items-center">
-                                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className="btn bg-transparent border-none shadow-none hover:bg-transparent hover:border-none" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className="btn bg-transparent border-none shadow-none hover:bg-transparent hover:border-none transition-transform transform scale-100 hover:scale-150 cursor-pointer duration-500" rel="noopener noreferrer">
                                         <FaLinkedin className="text-3xl text-blue-600" />
                                     </a>
-                                    <a href="https://github.com/Alamin-22" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/Alamin-22" target="_blank" rel="noopener noreferrer" className="transition-transform transform scale-100 hover:scale-150 cursor-pointer duration-500">
                                         <FaGithub className="text-3xl text-gray-700" />
                                     </a>
-                                    <a href="mailto:mdalaminmollik96@gmail.com">
+                                    <a href="mailto:mdalaminmollik96@gmail.com" className="transition-transform transform scale-100 hover:scale-150 cursor-pointer duration-500">
                                         <img className="w-[80%]" src={gmail} alt="gmail" />
                                     </a>
                                     <Link to="contact"

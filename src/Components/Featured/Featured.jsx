@@ -6,7 +6,7 @@ const Featured = () => {
     const [webInfo, setWebInfo] = useState([]);
 
     useEffect(() => {
-        axios.get("/public/website.json")
+        axios.get("/website.json")
             .then(res => setWebInfo(res.data))
     }, [])
 
