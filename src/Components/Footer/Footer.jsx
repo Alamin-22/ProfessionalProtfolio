@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="footer bg-[#ebcfbc] max-w-7xl mx-auto px-10 py-4 border-t  text-base-content border-base-300">
                 <div className="footer max-w-7xl mx-auto ">
                     <aside className="items-center grid-flow-col">
-                        <img src="/public/icons.png" className="w-12" alt="" />
+                        <img src="https://i.ibb.co/j47v31J/icons.png" className="w-12" alt="" />
                         <p className="font-medium">Web Developer<br />Build your Dream Website</p>
                     </aside>
                     <nav className="md:place-self-center md:justify-self-end">

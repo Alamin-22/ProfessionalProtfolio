@@ -30,7 +30,7 @@ const Education = () => {
                                         </div>
                                         <div className="card-body md:text-right">
                                             <h2 className="text-2xl font-semibold"> Secondary School Certificate </h2>
-                                            <p>Rayer Bazar Heigh School</p>
+                                            <p>Rayer Bazar High School</p>
                                             <p>Result: 4.50 out of 5</p>
                                             <p>Group: Science</p>
                                         </div>
