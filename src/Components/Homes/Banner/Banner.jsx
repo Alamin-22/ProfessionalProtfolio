@@ -1,4 +1,4 @@
-import img from "../../../assets/Images/My_Offical-good-removebg-preview (1).png"
+import img from "../../../assets/Images/my pic.jpg"
 import { FaDownload } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
